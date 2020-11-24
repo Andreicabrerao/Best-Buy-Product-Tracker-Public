@@ -53,7 +53,7 @@ const checkBestBuy = async () => {
           data.products[0].inStoreAvailability
         ) {
           mailOptions.text =
-            "PS5 is available online and in-store at Best Buy!!";
+            "PS5 is available online and in-store at Best Buy!!!";
           sendMail();
         } else if (data.products[0].onlineAvailability) {
           mailOptions.text = "PS5 is available online at Best Buy!!";
